@@ -8,7 +8,7 @@ export default AppNavigator = TabNavigator({
     screen: PlayNavigator,
     navigationOptions: ({ navigation }) => ({
       tabBarIcon: ({ tintColor }) => (
-        <Icon name="money" size={26} color={tintColor}  />
+        <Icon name="money" size={26} color={tintColor} />
       )
     }),
   }
